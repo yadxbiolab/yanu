@@ -1,0 +1,42 @@
+-----begin train-----
+-----end train-----
+Number of sequences in train: 71498
+(71498, 256)
+Traceback (most recent call last):
+  File "train2vec.py", line 265, in <module>
+    save_dict(mir_doc2vec_dict,"./embedding/{}/mir_doc2vec_dict.txt".format(datatype))
+  File "train2vec.py", line 226, in save_dict
+    f = open(path,"w")
+FileNotFoundError: [Errno 2] No such file or directory: './embedding/train/mir_doc2vec_dict.txt'
+-----begin train-----
+-----end train-----
+Number of sequences in train: 71498
+(71498, 256)
+Traceback (most recent call last):
+  File "train2vec.py", line 265, in <module>
+    save_dict(mir_doc2vec_dict,"./embedding/{}/mir_doc2vec_dict.txt".format(datatype))
+  File "train2vec.py", line 226, in save_dict
+    f = open(path,"w")
+FileNotFoundError: [Errno 2] No such file or directory: './embedding/train/mir_doc2vec_dict.txt'
+Traceback (most recent call last):
+  File "train2vec.py", line 192, in <module>
+    mirna_dict = read_fa("/home/baona/www/cncRNA-feature--model/train.fa")
+  File "train2vec.py", line 30, in read_fa
+    rescords = list(SeqIO.parse(path,format="fasta"))
+  File "/home/baona/software/anaconda3/envs/env/lib/python3.8/site-packages/Bio/SeqIO/Interfaces.py", line 85, in __next__
+    return next(self.records)
+  File "/home/baona/software/anaconda3/envs/env/lib/python3.8/site-packages/Bio/SeqIO/FastaIO.py", line 199, in iterate
+    for title, sequence in SimpleFastaParser(handle):
+  File "/home/baona/software/anaconda3/envs/env/lib/python3.8/site-packages/Bio/SeqIO/FastaIO.py", line 71, in SimpleFastaParser
+    lines.append(line.rstrip())
+KeyboardInterrupt
+-----begin train-----
+-----end train-----
+Number of sequences in train: 71498
+(71498, 256)
+Traceback (most recent call last):
+  File "train2vec.py", line 265, in <module>
+    save_dict(mir_doc2vec_dict,"./embedding/{}/mir_doc2vec_dict.txt".format(datatype))
+  File "train2vec.py", line 226, in save_dict
+    f = open(path,"w")
+FileNotFoundError: [Errno 2] No such file or directory: './embedding/train/mir_doc2vec_dict.txt'
