@@ -1,2 +1,2 @@
 # yanu
-test
+python model.py
